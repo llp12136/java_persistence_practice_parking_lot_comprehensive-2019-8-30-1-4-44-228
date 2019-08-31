@@ -1,0 +1,45 @@
+//story 1
+//AC1
+Method : POST
+URL : /employee
+request body :  {"employeeID":0001} 
+response body : {}
+response code : 201
+//AC2
+Method : GET
+URL : /employee
+request body :  {} 
+response body : [{"employeeID":0001},{"employeeID":0002}]
+response code : 200
+
+
+//Story 2
+//AC1
+ethod : POST
+URL : /parkingLot
+request body :  {"parkingLotID":0001,"availablePositionCount":10,"capacity":20} 
+response body : {}
+response code : 201
+//AC2
+Method : GET
+URL :/parkingLot
+request body :  {} 
+response body : [{"parkingLotID":0001,"availablePositionCount":10,"capacity":20} ,
+                  {"parkingLotID":0002,"availablePositionCount":20,"capacity":30} 
+				  {"parkingLotID":0003,"availablePositionCount":10,"capacity":50} 
+				  ]
+response code : 200
+
+//Story 3
+//AC1
+Method : GET
+URL : /employee/{employeeID}/parkingLot
+request body :  {"employeeID":0001} 
+response body : {"parkingLotID":0001,"availablePositionCount":10,"capacity":20}                
+response code : 200
+//AC2
+Method : GET
+URL : /employee/{employeeID}/parkingLot
+request body :  {"employeeID":0001} 
+response body : {"parkingLotID":0001,"availablePositionCount":10,"capacity":20}                
+response code : 200
