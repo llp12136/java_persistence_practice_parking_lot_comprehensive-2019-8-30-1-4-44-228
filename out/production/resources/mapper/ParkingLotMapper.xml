@@ -8,6 +8,9 @@
     <insert id="insert">
     insert  into parkingLot values(#{parkingLot.parkingLotID},#{parkingLot.capacity},#{parkingLot.employeeID});
 </insert>
+<!--    <update id="updateByemployeeID" resultType="tws.entity.ParkingLot">-->
+<!--        update `parkingLot` set employeeID = #{employeeID};-->
+<!--    </update>-->
 
     <select id="selectByemployeeID" resultType="tws.entity.ParkingLot">
         select * from `parkingLot` where employeeID = #{employeeID};
