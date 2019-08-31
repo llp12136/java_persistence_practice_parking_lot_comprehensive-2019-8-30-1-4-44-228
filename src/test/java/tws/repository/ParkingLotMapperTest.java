@@ -8,20 +8,20 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.jdbc.JdbcTestUtils;
-import tws.entity.Employee;
+import tws.entity.ParkingLot;
+
 
 import javax.sql.DataSource;
 import java.util.List;
 
-import static org.junit.Assert.*;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @MybatisTest
-public class EmployeeMapperTest {
+public class ParkingLotMapperTest {
 
     @Autowired
-    private EmployeeMapper employeeMapper;
+    private ParkingLotMapper parkingLotMapper;
 
     JdbcTemplate jdbcTemplate;
 
@@ -38,22 +38,21 @@ public class EmployeeMapperTest {
     @Test
     public void shouldFetchAllEmployees() {
         // given
-        jdbcTemplate.execute("INSERT INTO EMPLOYEE VALUES(1,'zhangsan', 21);");
+        jdbcTemplate.execute("INSERT INTO parkingLot VALUES(1, 21);");
         // when
-        List<Employee> employeeList = employeeMapper.selectAll();
+        List<ParkingLot> parkingLotList = parkingLotMapper.selectAll();
         // then
-        assertEquals(1, employeeList.size());
+        assertEquals(1, parkingLotList.size());
     }
     @Test
     public void should_insert_Employees() {
         // given
-        Employee employee = new Employee(1,"lisi","20");
+        ParkingLot parkingLot = new ParkingLot(1,"20");
 
-        //jdbcTemplate.execute("INSERT INTO EMPLOYEE VALUES(1,'zhangsan', 21);");
         // when
-       employeeMapper.insert(employee);
+        parkingLotMapper.insert(parkingLot);
         // then
-        assertEquals(1, employeeMapper.selectAll().size());
+        assertEquals(1, parkingLotMapper.selectAll().size());
     }
 
 }

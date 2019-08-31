@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c3f14cb-726f-4975-bcba-b53b1c5a4e74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tws/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tws/controller/ParkingLotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tws/entity/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tws/repository/ParkingLotMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ParkingLotMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tws/repository/ParkingLotMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API.text" beforeDir="false" afterPath="$PROJECT_DIR$/API.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tws/repository/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tws/repository/EmployeeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/tws/repository/EmployeeMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/tws/repository/EmployeeMapperTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tws/repository/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tws/repository/EmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -29,37 +41,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="279">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tws/entity/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tws/repository/ParkingLotMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tws/repository/EmployeeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="260">
+              <caret line="42" column="71" lean-forward="true" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,35 +64,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="171">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tws/entity/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tws/service/EmployeeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,9 +87,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,19 +100,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/tws/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/API.text" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tws/repository/ParkingLotMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/tws/repository/EmployeeMapper.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tws/entity/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tws/controller/ParkingLotController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ParkingLotMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/tws/repository/ParkingLotMapperTest.java" />
       </list>
     </option>
   </component>
@@ -217,6 +197,14 @@
               <item name="java_persistence_practice_parking_lot_comprehensive-2019-8-30-1-4-44-228" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_persistence_practice_parking_lot_comprehensive-2019-8-30-1-4-44-228" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_persistence_practice_parking_lot_comprehensive-2019-8-30-1-4-44-228" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_persistence_practice_parking_lot_comprehensive-2019-8-30-1-4-44-228" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -241,12 +229,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_persistence_practice_mybatis_crud-2019-8-29-5-56-46-603" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -260,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeMapperTest.shouldFetchAllEmployees">
+  <component name="RunManager" selected="JUnit.ParkingLotMapperTest.should_insert_Employees">
     <configuration name="EmployeeMapperTest.shouldFetchAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_persistence_practice_mybatis.test" />
       <extension name="coverage">
@@ -277,6 +266,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeMapperTest.should_insert_Employees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_persistence_practice_mybatis.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tws.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tws.repository" />
+      <option name="MAIN_CLASS_NAME" value="tws.repository.EmployeeMapperTest" />
+      <option name="METHOD_NAME" value="should_insert_Employees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotMapperTest.shouldFetchAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_persistence_practice_mybatis.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tws.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tws.repository" />
+      <option name="MAIN_CLASS_NAME" value="tws.repository.ParkingLotMapperTest" />
+      <option name="METHOD_NAME" value="shouldFetchAllEmployees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotMapperTest.should_insert_Employees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_persistence_practice_mybatis.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tws.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tws.repository" />
+      <option name="MAIN_CLASS_NAME" value="tws.repository.ParkingLotMapperTest" />
+      <option name="METHOD_NAME" value="should_insert_Employees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="java_persistence_practice_mybatis.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tws.Application" />
@@ -286,6 +323,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParkingLotMapperTest.should_insert_Employees" />
+        <item itemvalue="JUnit.ParkingLotMapperTest.shouldFetchAllEmployees" />
+        <item itemvalue="JUnit.EmployeeMapperTest.should_insert_Employees" />
         <item itemvalue="JUnit.EmployeeMapperTest.shouldFetchAllEmployees" />
       </list>
     </recent_temporary>
@@ -300,7 +340,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567215516621</updated>
-      <workItem from="1567215519331" duration="2699000" />
+      <workItem from="1567215519331" duration="8637000" />
     </task>
     <servers />
   </component>
@@ -308,9 +348,18 @@
     <history-entry file="EmployeeMapperTest_shouldFetchAllEmployees - 2019.08.31 at 10h 08m 19s.xml">
       <configuration name="EmployeeMapperTest.shouldFetchAllEmployees" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmployeeMapperTest_should_insert_Employees - 2019.08.31 at 11h 35m 31s.xml">
+      <configuration name="EmployeeMapperTest.should_insert_Employees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotMapperTest_shouldFetchAllEmployees - 2019.08.31 at 11h 52m 55s.xml">
+      <configuration name="ParkingLotMapperTest.shouldFetchAllEmployees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotMapperTest_should_insert_Employees - 2019.08.31 at 11h 53m 02s.xml">
+      <configuration name="ParkingLotMapperTest.should_insert_Employees" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2699000" />
+    <option name="totallyTimeSpent" value="8637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
@@ -322,7 +371,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24965034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24965034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3297587" />
       <window_info anchor="bottom" id="Spring" />
@@ -335,7 +384,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,20 +406,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tws/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -378,45 +413,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+    <entry file="file://$PROJECT_DIR$/API.text">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="361">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tws/service/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tws/controller/ParkingLotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tws/repository/ParkingLotMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tws/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="227">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tws/repository/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="152">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tws/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ParkingLotMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tws/entity/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tws/repository/EmployeeMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tws/repository/ParkingLotMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="42" column="71" lean-forward="true" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

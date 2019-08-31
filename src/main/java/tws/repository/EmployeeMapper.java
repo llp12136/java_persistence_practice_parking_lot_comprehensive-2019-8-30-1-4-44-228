@@ -10,13 +10,5 @@ import java.util.List;
 public interface EmployeeMapper {
     List<Employee> selectAll();
 
-    Employee selectOne(@Param("id") String id);
-
    void insert(@Param("employee") Employee employee);
-
-    void  update(@Param("id") String id,
-                 @Param("employee") Employee employee);
-
-    void  delete(@Param("id") String id);
-
 }

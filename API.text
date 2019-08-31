@@ -1,13 +1,13 @@
 //story 1
 //AC1
 Method : POST
-URL : /employee
+URL : /employees
 request body :  {"employeeID":0001} 
 response body : {}
 response code : 201
 //AC2
 Method : GET
-URL : /employee
+URL : /employees
 request body :  {} 
 response body : [{"employeeID":0001},{"employeeID":0002}]
 response code : 200
