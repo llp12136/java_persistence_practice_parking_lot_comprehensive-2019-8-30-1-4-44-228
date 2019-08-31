@@ -6,7 +6,11 @@
     </select>
 
     <insert id="insert">
-    insert  into parkingLot values(#{parkingLot.parkingLotID},#{parkingLot.capacity});
+    insert  into parkingLot values(#{parkingLot.parkingLotID},#{parkingLot.capacity},#{parkingLot.employeeID});
 </insert>
+
+    <select id="selectByemployeeID" resultType="tws.entity.ParkingLot">
+        select * from `parkingLot` where employeeID = #{employeeID};
+    </select>
 
 </mapper>

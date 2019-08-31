@@ -32,10 +32,10 @@ response code : 200
 
 //Story 3
 //AC1
-Method : GET
+Method : POST
 URL : /employee/{employeeID}/parkingLot
-request body :  {"employeeID":0001} 
-response body : {"parkingLotID":0001,"availablePositionCount":10,"capacity":20}                
+request body :  {"employeeID":0001, "parkingLotID":0001,"availablePositionCount":10,"capacity":20}
+response body : {}
 response code : 200
 //AC2
 Method : GET

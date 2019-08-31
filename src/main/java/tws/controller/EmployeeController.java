@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tws.entity.Employee;
 import tws.repository.EmployeeMapper;
+import tws.service.EmployeeService;
 
 import java.net.URI;
 import java.util.List;
@@ -18,16 +19,16 @@ import java.util.List;
 public class EmployeeController {
 
     @Autowired
-    private EmployeeMapper employeeMapper;
+    private EmployeeService employeeService;
 
     @GetMapping("")
     public ResponseEntity<List<Employee>> getAll() {
-        return ResponseEntity.ok(employeeMapper.selectAll());
+        return ResponseEntity.ok(employeeService.getEmployees());
     }
 
     @PostMapping("")
     public ResponseEntity<Employee> insert(@RequestBody Employee employee) {
-        employeeMapper.insert(employee);
+        employeeService.addEmployee(employee);
         return ResponseEntity.created(URI.create("/employees/" + employee.getId())).body(employee);
     }
 

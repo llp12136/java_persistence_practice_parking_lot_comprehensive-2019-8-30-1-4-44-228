@@ -12,6 +12,8 @@ public interface ParkingLotMapper {
 
     List<ParkingLot> selectAll();
 
+
     void insert(@Param("parkingLot") ParkingLot parkingLot);
 
+    List<ParkingLot> selectByemployeeID(@Param("employeeID") int employeeID);
 }
